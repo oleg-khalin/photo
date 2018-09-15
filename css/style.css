@@ -1,0 +1,148 @@
+@import url(reset.css);
+
+body {
+	font: 18px Arial, Tahoma, sans-serif;
+	background: url(../Images/bg.jpg) no-repeat #fcfcfc;
+	color: #f7f6f3;
+}
+
+header {
+	height: 62px;
+	background: url(../Images/bg_header.png) repeat-x;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	height: 96px;
+	width: 131px;
+	float: left;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+header nav {
+	float: left;
+	padding-top: 20px;
+}
+
+header nav ul li {
+	float: left;
+	margin-left: 30px;
+}
+
+header nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	position: relative;
+	height: 460px;
+}
+
+.content h2,
+.content p {
+	position: absolute;
+	background: rgba(30,30,30,0.9);
+	color: #fff;
+	right: 0;
+}
+
+.content h2 {
+	font-size: 36px;
+	bottom: 115px;
+	padding: 25px 50px 30px 30px;
+}
+
+.content p {
+	bottom: 40px;
+	margin-left: 850px;
+	padding: 10px 50px 10px 20px;
+}
+
+.cont_bottom {
+	background: rgba(30,30,30,0.95);
+	height: 150px;
+	padding: 10px 0 25px;
+}
+
+.cont_bottom h3 {
+	color: #f7f6f3;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom: 2px dotted #f7f6f3;
+}
+
+.cont_bottom .block {
+	position: relative;
+	width: 175px;
+	height: 120px;
+	float: left;
+	margin-right: 10px;
+}
+
+.cont_bottom .block:last-child {
+	margin-right: 0;
+}
+
+.cont_bottom a {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background: rgba(30,30,30,0.8);
+	padding: 5px 10px;
+}
+
+.cont_bottom .photos {
+	float: left;
+}
+
+.right {
+	float: right;
+	color: #f7f6f3;
+}
+
+.right h4 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.right h5 {
+	font-size: 12px;
+}
+
+.right p {
+	font-style: italic;
+	font-size: 10px;
+}
+
+footer {
+	overflow: hidden;
+	background: url(../Images/bg_footer.png);
+	font-size: 11px;
+	padding: 10px 0;
+}
+
+footer .social {
+	float: right;
+	height: 16px;
+}
+
+footer p {
+	padding-top: 5px;
+	float: left;
+}
+
+footer .social a {
+	margin-left: 10px;
+}
